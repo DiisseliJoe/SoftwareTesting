@@ -24,13 +24,13 @@ const expect = chai.expect
 
 describe("camelCase.test_1", () => {
     it("Converts string containing '-' to camel case.", () =>{
-        expect(camelCase("-foo-bar—")).to.equal("fooBar")
+        expect(camelCase("--foo-bar—")).to.equal("fooBar")
     });
 })
 
 describe("camelCase.test_2", () => {
     it("Converts string containing '_' to camel case.", () =>{
-        expect(camelCase("_foo-bar__")).to.equal("fooBar")
+        expect(camelCase("__foo-bar__")).to.equal("fooBar")
     });
 })
 
