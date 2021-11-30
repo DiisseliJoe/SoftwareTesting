@@ -5,8 +5,8 @@
   "main": "test.js",
   "type": "module",
   "scripts": {
-    npm install coveralls --save-dev
-    npm install mocha-lcov-reporter --save-dev
+    "coveralls": "npm install coveralls --save-dev"
+    "mocha": "npm install mocha-lcov-reporter --save-dev"
     "test": "mocha test"
   },
   "author": "",
