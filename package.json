@@ -5,7 +5,7 @@
   "main": "test.js",
   "type": "module",
   "scripts": {
-    "test": "mocha test"
+    "test": "make test-coveralls"
   },
   "author": "",
   "license": "MIT",
