@@ -1,5 +1,7 @@
 [![Build Status](https://app.travis-ci.com/DiisseliJoe/SoftwareTesting.svg?branch=main)](https://app.travis-ci.com/DiisseliJoe/SoftwareTesting)
 
+[![Coverage Status](https://coveralls.io/repos/github/DiisseliJoe/SoftwareTesting/badge.svg?branch=main)](https://coveralls.io/github/DiisseliJoe/SoftwareTesting?branch=main)
+
 # Student template
 
 ## Purpose of this repository
