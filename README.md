@@ -1,3 +1,5 @@
+[![Build Status](https://app.travis-ci.com/DiisseliJoe/SoftwareTesting.svg?branch=main)](https://app.travis-ci.com/DiisseliJoe/SoftwareTesting)
+
 # Student template
 
 ## Purpose of this repository
