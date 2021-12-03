@@ -1,9 +1,21 @@
+
+
+sudo: false
 language: node_js
 node_js:
-  - node
+  - "node"
+
 
 install:
   - npm ci
-  
-script:
-  - npm test
+
+env:
+  global:
+    - COVERALLS_PARALLEL=true
+jobs:
+  include:
+    - script: COVERALLS_FLAG_NAME=test make test-coveralls
+
+notifications:
+  webhooks: https://coveralls.io/webhook
+
