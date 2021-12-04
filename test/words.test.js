@@ -25,12 +25,12 @@ describe("words.test_3", () => {
 
 describe("words.test_4", () => {
     it("string does not include Unicode characters.", () =>{
-        expect(words("Hello, World")).to.eql['Hello','World']
+        expect(words("Hello, World")).to.eql(['Hello','World'])
     });
 })
 
 describe("words.test_5", () => {
     it("string is empty.", () =>{
-        expect(words()).to.eql([])
+        expect(words("")).to.eql([])
     });
 })
