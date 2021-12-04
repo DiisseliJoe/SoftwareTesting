@@ -37,6 +37,6 @@ describe("drop.test_5", () => {
 
 describe("drop.test_6", () => {
     it("n is lower than length of array but bigger than 1.", () =>{
-        expect(drop([1,2,3])).to.eql([3])
+        expect(drop([1,2,3], 2)).to.eql([3])
     });
 })
