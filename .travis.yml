@@ -13,3 +13,6 @@ install:
 script:
   - npm run coveralls
 
+notifications:
+  webhooks: https://coveralls.io/webhook
+
