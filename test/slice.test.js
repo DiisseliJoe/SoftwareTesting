@@ -31,7 +31,7 @@ describe("slice.test_4", () => {
 
 describe("slice.test_5", () => {
     it("End parameter bigger than start parameter.", () =>{
-        expect(slice([1,2,3,4], 3, 2)).to.eql([3])
+        expect(slice([1,2,3,4], 2, 3)).to.eql([3])
     });
 })
 
