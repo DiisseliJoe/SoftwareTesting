@@ -14,7 +14,7 @@ describe("chunk.test_1", () => {
 
 describe("chunk.test_2", () => {
     it("Check if parameter array is changed.", () =>{
-        expect(chunk(['a','b','c','d'], 4)).to.eql(['a','b','c','d'])
+        expect(chunk(['a','b','c','d'], 4)).to.eql([['a','b','c','d']])
     });
 })
 
@@ -32,12 +32,12 @@ describe("chunk.test_4", () => {
 
 describe("chunk.test_5", () => {
     it("CSize parameter bigger than length of array.", () =>{
-        expect(chunk(['a','b','c','d'], 5)).to.eql(['a','b','c','d'])
+        expect(chunk(['a','b','c','d'], 5)).to.eql([['a','b','c','d']])
     });
 })
 
 describe("chunk.test_6", () => {
     it("Size parameter equal to length of array", () =>{
-        expect(chunk(['a','b','c','d'], 4)).to.eql(['a','b','c','d'])
+        expect(chunk(['a','b','c','d'], 4)).to.eql([['a','b','c','d']])
     });
 })
