@@ -38,13 +38,13 @@ describe("eq.test_5", () => {
 
 describe("eq.test_6", () => {
     it("value parameter is undefined ", () =>{
-        expect(eq(undefined,5)).to.equal(true)
+        expect(eq(undefined,5)).to.equal(false)
     });
 })
 
 describe("eq.test_7", () => {
     it("value parameter is null.", () =>{
-        expect(eq(null,5)).to.equal(true)
+        expect(eq(null,5)).to.equal(false)
     });
 })
 
